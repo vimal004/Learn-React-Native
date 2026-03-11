@@ -9,3 +9,4 @@
 - Learnt about expo go and how it helps run the app on physical device.
 - Learnt about the basic structure of a react native project.
 - Downloaded and Setup Android Studio for running apps on emulator.
+- Learnt basic tags like Text, Image, View, Button
