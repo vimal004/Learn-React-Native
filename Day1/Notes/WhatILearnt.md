@@ -1,0 +1,11 @@
+- Learnt the basic architecture of React Native 
+- Followed CodeWithMosh tutorial https://www.youtube.com/watch?v=0-S5a0eXPoc
+- How React Native helps fast development(JS for both ios and android apps instead of separate code bases java/swift for each)
+- How react native compiles code similary to react.js only diff being they are compiled to native android ios components instead of html
+- Learnt about View, Text, Image, ScrollView, SafeAreaView tags
+- Learnt why Expo project setup better and faster than React Native CLI setup for beginners and how it assists with faster dev. Provides almost all features needed with fast setup time.
+- Setup my first React Native project and ran it.
+- Learnt about metro bundler and how it bundles js code for both ios and android.
+- Learnt about expo go and how it helps run the app on physical device.
+- Learnt about the basic structure of a react native project.
+- Downloaded and Setup Android Studio for running apps on emulator.
