@@ -5,7 +5,7 @@ export default function App() {
   console.log("Executed")
   return (
     <View style={styles.container}>
-      <Text>First App!</Text>
+      <Text>First App - Vimal!</Text>
       <StatusBar style="auto" />
     </View>
   );
