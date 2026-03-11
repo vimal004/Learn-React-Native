@@ -1,0 +1,5 @@
+- Learn Basics of React Native (The what, why, architecture etc..)
+- Similarities & Differences with React.js 
+- Create First App with Expo
+- Understand the folder structure
+- Learn about core components (View, Text, Image, ScrollView, SafeAreaView), and Flexbox layout.
