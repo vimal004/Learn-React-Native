@@ -26,4 +26,4 @@ A header bar
 A title
 A back button when needed
 
--Learnt how the data is passed between screens as props to the component functions similar to how how states were passed down through muliple levels in react.js
+-Learnt about how states and data passed down in react native and how similar it is to react.js
