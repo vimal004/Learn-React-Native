@@ -1,19 +1,33 @@
-import { View, Text, StyleSheet } from "react-native-web";
+import { NavigationContainer } from "@react-navigation/native";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-const App = () => {
+import HomeScreen from "./screens/HomeScreen";
+import ProfileScreen from "./screens/ProfileScreen";
+import DetailsScreen from "./screens/DetailsScreen";
+
+const Stack = createNativeStackNavigator();
+
+export default function App() {
   return (
-    <View>
-      <Text style={styles.text}>
-        Hi Hello there
-      </Text>
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator>
+
+        <Stack.Screen 
+          name="Home" 
+          component={HomeScreen} 
+        />
+
+        <Stack.Screen 
+          name="Profile" 
+          component={ProfileScreen} 
+        />
+
+        <Stack.Screen 
+          name="Details" 
+          component={DetailsScreen} 
+        />
+
+      </Stack.Navigator>
+    </NavigationContainer>
   );
-};
-
-const styles = StyleSheet.create({
-  text: {
-    color: "red"
-  }
-});
-
-export default App;
+}
