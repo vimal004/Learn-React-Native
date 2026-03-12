@@ -9,3 +9,21 @@ Storage	expo-secure-store
 react.js web based lots of required apis already provided unlike react native 
 - React Native navigation = React Router
 - React Native stack based navigation followed in react js no need as browser manages it.
+Mobile apps don't have built-in navigation history.
+
+-React Native only provides UI components:
+
+View
+Text
+Image
+ScrollView
+
+No navigation system.
+
+
+-React Navigation automatically adds:
+A header bar
+A title
+A back button when needed
+
+-Learnt how the data is passed between screens as props to the component functions similar to how how states were passed down through muliple levels in react.js
