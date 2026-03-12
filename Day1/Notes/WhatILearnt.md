@@ -1,5 +1,5 @@
 - Learnt the basic architecture of React Native 
-- Followed CodeWithMosh tutorial https://www.youtube.com/watch?v=0-S5a0eXPoc
+- Followed CodeWithMosh tutorial https://www.youtube.com/watch?v=0-S5a0eXPoc - 1hr done
 - How React Native helps fast development(JS for both ios and android apps instead of separate code bases java/swift for each)
 - How react native compiles code similary to react.js only diff being they are compiled to native android ios components instead of html
 - Learnt about View, Text, Image, ScrollView, SafeAreaView tags
