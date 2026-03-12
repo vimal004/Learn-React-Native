@@ -10,4 +10,4 @@
 - Learnt about the basic structure of a react native project.
 - Downloaded and Setup Android Studio for running apps on emulator.
 - Learnt basic tags like Text(<p> tag in html), Image, View(<div> tag in html), SafeAreaView(Makes sure text lays in safe area of the screen ie not under the notch or status bar), ScrollView(When content is more than screen size, it allows scrolling)
-- Learnt FlexBox
+- Learnt Basic FlexBox (flex, flexDirection, justifyContent, alignItems)
