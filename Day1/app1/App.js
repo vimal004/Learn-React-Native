@@ -1,25 +1,19 @@
-import { View } from "react-native";
+import { View, Text, StyleSheet } from "react-native-web";
 
-export default function App() {
+const App = () => {
   return (
-    <View
-      style={{
-        flex: 1,
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <View style={{ width: 50, height: 50, backgroundColor: "red" }} />
-      <View style={{ width: 50, height: 50, backgroundColor: "blue" }} />
+    <View>
+      <Text style={styles.text}>
+        Hi Hello there
+      </Text>
     </View>
   );
-  const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      flexDirection: "column",
-      justifyContent: "center",
-      alignItems: "center",
-    },
-  });
-}     
+};
+
+const styles = StyleSheet.create({
+  text: {
+    color: "red"
+  }
+});
+
+export default App;
