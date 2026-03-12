@@ -1,13 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Image, SafeAreaView } from 'react-native';
 
 export default function App() {
   console.log("Executed")
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <Text>First App - Vimal!</Text>
+      <Image source={require("./assets/icon.png")} />
       <StatusBar style="auto" />
-    </View>
+    </SafeAreaView>
   );
 }
 
