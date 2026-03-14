@@ -1,0 +1,11 @@
+- Fetch, Axios, Then, Catch, Async, Await concepts I'm already aware of and React Native works exactly the same as react.js.
+- Axios better than fetch cuz of auto err handling and json parsing.
+- Async, Await more readable and cleaner than using then, catch
+- A promise has 3 states pending, fulfilled, rejected.
+- Catch is used to gracefully handle the errors and finally executes everytime.
+- Async, Await is used to handle asynchronous operations.
+- JS single threaded and async operations are handled using event loop they put the async operations in call stack and when the call stack is empty they execute the async operations.
+- JS is non blocking and synchronous.
+- Already knew about useState, useEffect learnt more about useMemo and useRef hooks in detail.
+- Revised the async concepts about task, microtask queue and event loop.
+- 
