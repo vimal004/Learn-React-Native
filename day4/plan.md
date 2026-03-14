@@ -1,0 +1,1 @@
+App structure and state management — organizing code (components, screens, services), using hooks and Context API for shared state.
